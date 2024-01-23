@@ -1,0 +1,49 @@
+/* Base style for each skill block */
+.skill-block {
+    padding: 40px 20px; /* Increase padding at the top and bottom */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+    min-height: 300px;
+    border-radius: 8px;
+    background-color: #4B3869; /* Dark purple background for each block */
+    margin-top: 10vh;
+    border: 1px solid #5E4B8B; /* Slightly lighter purple border */
+    color: #FFFFFF; /* White text color */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease;
+    transform: scale(0.75); /* Further reduce the size and fade non-central blocks */
+    opacity: 0.5; /* Further reduce the opacity to push non-central blocks to the background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* More subtle shadow for non-central blocks */
+  }
+  
+  /* Style for the central skill block */
+  .slick-center .skill-block {
+    transform: scale(1.25); /* Significantly scale up the central block */
+    opacity: 1; /* Full opacity for the central block */
+    z-index: 20; /* Ensure the central block is above others */
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); /* More enhanced shadow for the central block */
+  }
+  
+  .skill-block h3 {
+    font-size: 20px;
+    margin-bottom: 2vh;
+    color: #E0D7EE; /* Light purple text color for headings */
+
+  }
+  
+  .skill-block p {
+    color: #C7BFD4; /* Light purple text color for the description */
+    font-size: 14px; /* Smaller font size for the description */
+  }
+  
+  /* Adjust the slick-dots color to fit the dark theme */
+  .slick-dots li button:before {
+    color: #5E4B8B;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #FFFFFF;
+  }
+  

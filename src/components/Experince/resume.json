@@ -1,0 +1,41 @@
+{
+    
+  "work": [
+    {
+      
+      "company": "Scania, Oskarshamn",
+      "position": "Computer engineer intern",
+      "website": "https://www.pst.asseco.com",
+      "startDate": "2024-03-25",
+      "summary": "Internship at Scania, where I worked with a team focused on digitalization and data-driven approaches, utilizing computer vision and AI to enhance production",
+      "highlights": []
+    },
+    {
+      "company": "Magna International, Vårgårda",
+      "position": "Part-time Assembler",
+      "website": "https://www.magna.com",
+      "startDate": "2021-03-16",
+      "endDate": "2024-01-01",
+      "summary": "Acquiring hands-on experience with equipment and machinery, refining problem-solving and teamwork skills. Gained insights into various products utilized in automobiles, including those by Volvo, Mercedes-Benz, and others, understanding their functionality both in hardware and software aspects.",
+      "highlights": []
+    },
+    {
+      "company": "ElonElon Sound & Vision",
+      "position": "Customer service",
+      "website": "https://www.elon.se",
+      "startDate": "2020-03-01",
+      "endDate": "",
+      "summary": "Assisted with customer service, merchandising and operation of the cash register. Enhanced my communication skills and learned effective store management.",
+      "highlights": []
+    },
+    {
+      "company": "Herrljunga Kommun",
+      "position": "Café",
+      "website": "https://herrljunga.se",
+      "startDate": "2019-03-01",
+      "endDate":"",
+      "summary": "My first job involved working at a café in Herrljunga kommun during the summer and on weekends.",
+      "highlights": ["Frist job"]
+    }
+  ]
+}

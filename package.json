@@ -1,0 +1,62 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@react-pdf/renderer": "^2.3.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.13.2",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "openai": "^4.25.0",
+    "pdfjs-dist": "^4.0.379",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.10.0",
+    "react-dom": "^17.0.2",
+    "react-github-calendar": "^3.2.2",
+    "react-icons": "^4.8.0",
+    "react-parallax-tilt": "^1.7.42",
+    "react-pdf": "^5.7.1",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "react-slick": "^0.29.0",
+    "react-spring": "^9.7.3",
+    "react-tsparticles": "^1.42.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.8",
+    "typewriter-effect": "^2.18.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
