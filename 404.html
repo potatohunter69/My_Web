@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>SN.</title>
+  <meta name="description" content="Self Developed personal website build with React.js">
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="SN.">
+  <meta itemprop="description" content="Self Developed personal website build with React.js">
+  <meta itemprop="image"
+    content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://soumyajit.vercel.app">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SN.">
+  <meta property="og:description" content="Self Developed personal website build with React.js">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SN.">
+  <meta name="twitter:description" content="Self Developed personal website build with React.js">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK">
+
+  <!-- Custom Script for Handling 404 Redirects in GitHub Pages -->
+  <script>
+    (function() {
+      // Check if we got a 404 for a direct access to a sub-page.
+      // If we did, we'll redirect to the homepage with the correct path.
+      var redirectPath = sessionStorage.redirectPath || '';
+      delete sessionStorage.redirectPath;
+      if (redirectPath !== '') {
+        // Replace the current history entry with the original path.
+        history.replaceState(null, null, redirectPath);
+      } else {
+        // Store the current path in case we hit a 404 and need to redirect.
+        sessionStorage.redirectPath = window.location.pathname;
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>
