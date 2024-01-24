@@ -18,7 +18,7 @@
       - name: Test
         run: npm run test
   
-      - name: Deploy
+      - name: Deploy 
         run: |
           git config --global user.name 'Sami Noroozi'
           git config --global user.email 'saminoorzy@gmail.com'
