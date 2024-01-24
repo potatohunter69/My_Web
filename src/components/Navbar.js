@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand
-          href="/"
+          href="/My_Web"
           style={{
             fontFamily: "'Arial', sans-serif",
             fontSize: "26px", // Slightly larger
