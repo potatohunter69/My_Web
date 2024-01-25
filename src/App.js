@@ -7,6 +7,8 @@ import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import Footer from "./components/Footer";
 
+import NotFoundPage from './NotFoundPage';
+
 import Experience from "./components/Experince/Experince";
 import {
   BrowserRouter as Router,
@@ -46,6 +48,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/experience" element={<Experience />} />
+          <Route component={NotFoundPage} />
         </Routes>
         <Footer />
       </div>

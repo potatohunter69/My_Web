@@ -31,14 +31,16 @@ function Timeline() {
                 return (
                   <TimelineItem
                     key={j}
-                    date={new Date(item.startDate).toLocaleString("en-UK", {
-                      month: "long",
-                      year: "numeric"
-                    })}
                     company={item.company}
                     position={item.position}
                     website={item.website}
                     summary={item.summary}
+                    
+                    date={new Date(item.startDate).toLocaleString("en-UK", {
+                      month: "long",
+                      year: "numeric"
+                    })}
+                   
                   />
                 );
               })
