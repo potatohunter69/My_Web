@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="My Portfolio"
               description="My portfolio website build with react.js, . It is a single page website with smooth scroll and particle background. It is a fully functional website with contact form and resume download."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink="https://github.com/potatohunter69/My_Web"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>

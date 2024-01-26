@@ -7,6 +7,10 @@ import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import Footer from "./components/Footer";
 
+import Chatbot from "./components/Chatbot";
+
+
+
 import NotFoundPage from './NotFoundPage';
 
 import Experience from "./components/Experince/Experince";
@@ -50,6 +54,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route component={NotFoundPage} />
         </Routes>
+        <Chatbot/>
         <Footer />
       </div>
     </Router>

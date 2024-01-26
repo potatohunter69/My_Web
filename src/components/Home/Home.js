@@ -4,25 +4,10 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import ScrollSymbol from "../About/Scroll"; // Import the ScrollSymbol component
 import { useState, useEffect } from "react";
 
 function Home() {
-  const [showScrollSymbol, setShowScrollSymbol] = useState(true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.innerHeight + window.scrollY;
-      setShowScrollSymbol(scrollPosition < document.body.scrollHeight);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
+ 
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -58,7 +43,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      {showScrollSymbol && <ScrollSymbol onClick={() => window.scrollBy({ top: window.innerHeight, behavior: "smooth" })} />}
+      
       <Home2 />
     </section>
   );

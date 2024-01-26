@@ -4,29 +4,13 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Skillstack from "./Skillstack";
-import ScrollSymbol from "./Scroll"; // Import the ScrollSymbol component
 import myImg from "../../Assets/me.png";
 import MyStories from "./Background";
 
 function About() {
-  const [showScrollSymbol, setShowScrollSymbol] = useState(true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.innerHeight + window.scrollY;
-      setShowScrollSymbol(scrollPosition < document.body.scrollHeight);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
+  
   return (
     <Container
       fluid
@@ -66,14 +50,7 @@ function About() {
           <MyStories />
         </Row>
 
-        {/* Render the ScrollSymbol component if showScrollSymbol is true */}
-        {showScrollSymbol && (
-          <ScrollSymbol
-            onClick={() =>
-              window.scrollBy({ top: window.innerHeight, behavior: "smooth" })
-            }
-          />
-        )}
+       
 
         <Row style={{ marginTop: "35vh" }}>
           <h1 className="project-heading">
