@@ -90,13 +90,11 @@
   }
   
   .chatbot-form button:hover {
-    background-color: black;
-
-
+    background-color: rgb(81, 60, 81);
   }
   
   .chatbot-form button:disabled {
-    background-color: black;
+    background-color: #6c757d;
   }
 
   
