@@ -14,7 +14,7 @@ const Chatbot = () => {
 
   const getResponse = async (message) => {
     const url = "https://api.openai.com/v1/chat/completions";
-    const apiKey = "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"; // Ensure this is the correct API key
+    const apiKey = "sk-..."; // Ensure this is the correct API key
 
     const headers = {
       Authorization: `Bearer ${apiKey}`,
@@ -102,7 +102,7 @@ const Chatbot = () => {
               type="text"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Who is Sami?"
+              placeholder="Type a message..."
               disabled={loading}
             />
             <button type="submit" disabled={loading}>

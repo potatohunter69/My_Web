@@ -54,7 +54,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route component={NotFoundPage} />
         </Routes>
-        <Chatbot/>
+     
         <Footer />
       </div>
     </Router>
