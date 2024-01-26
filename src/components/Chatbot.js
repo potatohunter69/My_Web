@@ -104,7 +104,7 @@ const Chatbot = () => {
               type="text"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Type a message..."
+              placeholder="Who is Sami?"
               disabled={loading}
             />
             <button type="submit" disabled={loading}>
