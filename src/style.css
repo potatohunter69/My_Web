@@ -634,6 +634,11 @@ button:focus {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
+
+  .container-exp{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 }
 .resume .resume-title {
   font-size: 2em;

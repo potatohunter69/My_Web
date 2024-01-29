@@ -25,7 +25,7 @@ function Experience() {
       <Particle/>
       {" "}
       {/* Added 'home-section' class */}
-      <div className="container">
+      <div className="container-exp">
         <h1 className="title purple" style={titleStyle}>
           We are here{" "}
         </h1>{" "}
