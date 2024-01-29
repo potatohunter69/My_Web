@@ -12,11 +12,11 @@ function SkillCarousel() {
     },
     {
       name: 'A lot of math',
-      description: 'Since AI is a math heavy field, I have taken many math courses to prepare myself for the field. I have taken courses in linear algebra, calculus, differential equations, and probability and statistics. I have also taken courses in discrete mathematics and graph theory, which are important for understanding the algorithms used in AI.',
+      description: 'completed courses in linear algebra, calculus, differential equations, probability, statistics, discrete mathematics, and graph theory, essential for proficiency in AI',
     },
     {
       name: 'Hardware',
-      description: 'So far, I have completed courses in digital logic design, computer architecture, and embedded systems. Throughout these courses, I have gained practical experience working with languages such as C, VHDL, and Cuda to program FPGAs, microcontrollers, and GPUs. I have learned to construct state machines and bridge hardware with software, enabling the development of various devices such as traffic lights, sensors, and more',
+      description: ' completed courses in digital logic, computer architecture, and embedded systems, gaining experience in programming with C, VHDL, and Cuda, and developing skills in state machine construction and hardware-software interfacing',
 
     },
     {
@@ -63,7 +63,7 @@ function SkillCarousel() {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px'}}>
       <Slider {...settings}>
         {skills.map((skill, index) => (
           <div key={index} className="skill-block">

@@ -16,6 +16,7 @@
     transform: scale(0.75); /* Further reduce the size and fade non-central blocks */
     opacity: 0.5; /* Further reduce the opacity to push non-central blocks to the background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* More subtle shadow for non-central blocks */
+    margin-bottom: 5vh;
   }
   
   /* Style for the central skill block */
