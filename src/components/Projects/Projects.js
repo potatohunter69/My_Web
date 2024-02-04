@@ -6,6 +6,8 @@ import myWeb from "../../Assets/Projects/myWeb.png";
 import objectDetect from "../../Assets/Projects/objectDetect.png";
 import embeded from "../../Assets/Projects/embeded.png";
 import onScheduling from "../../Assets/Projects/onScheduling.png";
+import rockPaperScissors from "../../Assets/Projects/rockPaperScissors.jpg";
+
 
 function Projects() {
   return (
@@ -19,15 +21,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rockPaperScissors}
+              isBlog={false}
+              title="Rock Paper Scissors"
+              description="Build a rock paper scissors object detection model using Pytorch and Roboflow. The model is trained on 3000 images and deployed on Roboflow. Feel free to try it out by clicking on the demo button below"
+              ghLink="https://github.com/potatohunter69/RockPaperScissors/blob/main/Rock.ipynb"
+              demoLink="https://detect.roboflow.com/?model=rock-paper-scissors-wua3t&version=1&api_key=uUEXVVgnReFzPoyeowwb"
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={myWeb}
               isBlog={false}
               title="My Portfolio"
-              description="My portfolio website build with react.js, . It is a single page website with smooth scroll and particle background. It is a fully functional website with contact form and resume download."
+              description="My portfolio website build with react.js. It is a single page website with smooth scroll and particle background. It is a fully functional website with contact form and resume download. The website is responsive and works on all devices."
               ghLink="https://github.com/potatohunter69/My_Web"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://www.saminoroozi.com"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -36,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Object Detection with Tensorflow and Keras API"
               description="Build a object detection model with 98% accuracy using Tensorflow and Keras API. The model is trained on COCO dataset and can detect many different objects."
-              ghLink="https://github.com/potatohunter69/ML_Models"
+              ghLink="https://github.com/potatohunter69/ML_Modelsz"
               demoLink="a"
             />
           </Col>

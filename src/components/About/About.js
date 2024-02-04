@@ -38,7 +38,7 @@ function About() {
               src={myImg}
               className="img-fluid"
               alt="avatar"
-              style={{ borderRadius: "50%", width: "300px", height: "300px" }}
+              style={{ borderRadius: "50%", width: "300px", height: "300px" , backfaceVisibility: "hidden"}}
             />
           </Col>
         </Row>
