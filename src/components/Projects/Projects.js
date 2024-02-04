@@ -29,7 +29,7 @@ function Projects() {
               title="Rock Paper Scissors"
               description="Build a rock paper scissors object detection model using Pytorch and Roboflow. The model is trained on 3000 images and deployed on Roboflow. Feel free to try it out by clicking on the demo button below"
               ghLink="https://github.com/potatohunter69/RockPaperScissors/blob/main/Rock.ipynb"
-              demoLink="https://app.roboflow.com/yolov8-ajpvj/sami-rockpaperscissors/1"
+              demoLink="https://universe.roboflow.com/yolov8-ajpvj/sami-rockpaperscissors/model/1"
             />
           </Col>
           
