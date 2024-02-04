@@ -57,7 +57,7 @@ function Projects() {
               title="Online Event Scheduling Application"
               description="Developed an online event scheduling application during my web development course using React, Node.js, Express, and MongoDB, applying various design patterns like MERN and MVC.
               Utilized GitHub for version control, enhancing software development and teamwork skills."
-              ghLink="https://github.com/ErkWWW2/OES"
+              ghLink="https://github.com/ErkWWW2/OES "
               demoLink=""
             />
           </Col>
