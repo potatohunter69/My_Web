@@ -6,7 +6,7 @@ import myWeb from "../../Assets/Projects/myWeb.png";
 import objectDetect from "../../Assets/Projects/objectDetect.png";
 import embeded from "../../Assets/Projects/embeded.png";
 import onScheduling from "../../Assets/Projects/onScheduling.png";
-import rockPaperScissors from "../../Assets/Projects/rockPaperScissors.jpg";
+import rockPaperScissors from "../../Assets/Projects/rockPaper.jpg";
 
 
 function Projects() {
