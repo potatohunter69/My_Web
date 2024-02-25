@@ -6,7 +6,8 @@ import myWeb from "../../Assets/Projects/myWeb.png";
 import objectDetect from "../../Assets/Projects/objectDetect.png";
 import embeded from "../../Assets/Projects/embeded.png";
 import onScheduling from "../../Assets/Projects/onScheduling.png";
-import rockPaperScissors from "../../Assets/Projects/rockPaper.jpg";
+import rockPaperScissors from "../../Assets/Projects/rockPaper.png";
+import ecommers from "../../Assets/Projects/ecommers.png";
 
 
 function Projects() {
@@ -24,14 +25,17 @@ function Projects() {
 
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rockPaperScissors}
+              imgPath={ecommers}
               isBlog={false}
-              title="Rock Paper Scissors"
-              description="Build a rock paper scissors object detection model using Pytorch and Roboflow. The model is trained on 3000 images and deployed on Roboflow. Feel free to try it out by clicking on the demo button below"
-              ghLink="https://github.com/potatohunter69/RockPaperScissors/blob/main/Rock.ipynb"
-              demoLink="https://universe.roboflow.com/yolov8-ajpvj/sami-rockpaperscissors/model/1"
+              
+              title="Flow Studio (ecommers)"
+              description="I developed a fully functional e-commerce website from scratch, starting with the people willing to sell their products, to designing and deploying the platform on the cloud. Throughout this project, I gained substantial experience in bringing an idea to reality, used CI/CD strategies to efficiently deliver the product to customers and gather their feedback."
+              ghLink="https://github.com/potatohunter69/Candle."
+              demoLink="http://flowstudio.store"
             />
           </Col>
+
+
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -41,6 +45,17 @@ function Projects() {
               description="My portfolio website build with react.js. It is a single page website with smooth scroll and particle background. It is a fully functional website with contact form and resume download. The website is responsive and works on all devices."
               ghLink="https://github.com/potatohunter69/My_Web"
               demoLink="https://www.saminoroozi.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rockPaperScissors}
+              isBlog={false}
+              title="Rock Paper Scissors"
+              description="Build a rock paper scissors object detection model using Pytorch and Roboflow. The model is trained on 3000 images and deployed on Roboflow. Feel free to try it out by clicking on the demo button below"
+              ghLink="https://github.com/potatohunter69/RockPaperScissors/blob/main/Rock.ipynb"
+              demoLink="https://universe.roboflow.com/yolov8-ajpvj/sami-rockpaperscissors/model/1"
             />
           </Col>
           <Col md={4} className="project-card">
