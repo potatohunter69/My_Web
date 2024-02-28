@@ -32,8 +32,7 @@ function AboutCard() {
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> <b>Hange out with friends</b> to pretend I am
-              social "lol"
+              <ImPointRight /> <b>Hange out with friends</b> to have a good time
             </li>
             <li className="about-activity">
               <ImPointRight /> <b>Work on my own projects</b> to actually learn
