@@ -18,6 +18,8 @@ import {
   SiNvidia,
   SiDocker,
   SiJavascript,
+  PowerPlatform,
+  SiPowerautomate,
 } from "react-icons/si";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure you're importing Bootstrap CSS
 
@@ -43,6 +45,7 @@ function Techstack() {
     { icon: <SiJavascript/>, label: "Javascript" },
     { icon: <DiGit />, label: "Git" },
     { icon: <DiDockerIcon />, label: "Docker" },
+    { icon: <SiPowerautomate />, label: "Microsoft Power Platform" },
     // ... Add more techs as needed ...
   ];
 

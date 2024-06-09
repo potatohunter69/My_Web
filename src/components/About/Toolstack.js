@@ -8,8 +8,10 @@ import {
   SiMacos,
   SiCanva,
   SiOpenai,
+  SiGithub,
 } from "react-icons/si";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure you're importing Bootstrap CSS
+import { GitHub } from "@material-ui/icons";
 
 function Toolstack() {
   // Function to render tooltip
@@ -27,6 +29,8 @@ function Toolstack() {
         { icon: <SiVisualstudiocode />, label: "Visual Studio Code" },
         { icon: <SiCanva />, label: "Canva" },
         { icon: <SiOpenai />, label: "OpenAI and ChatGPT" },
+        { icon: <SiGithub />, label: "OpenAI and ChatGPT" },
+  
         // Add more icons and labels here as needed
       ].map((item, index) => (
         <Col xs={4} md={2} className="tech-icons" key={index}>
