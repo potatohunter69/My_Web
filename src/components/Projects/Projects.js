@@ -8,6 +8,7 @@ import embeded from "../../Assets/Projects/embeded.png";
 import onScheduling from "../../Assets/Projects/onScheduling.png";
 import rockPaperScissors from "../../Assets/Projects/rockPaper.png";
 import ecommers from "../../Assets/Projects/ecommers.png";
+import scaniaApp from "../../Assets/Projects/ScaniaApp.png";
 
 
 function Projects() {
@@ -22,6 +23,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={scaniaApp}
+              isBlog={false}
+              title="Scania App"
+              description="Developed a fully functional app during my internship at Scania using Microsoft's low-code stack and Azure pre-trained models. The app features functionalities such as extracting information from incoming emails and performing various actions accordingly. Learned to leverage low-code tools and pre-trained models for rapid development. Due to company policy, I can't show the source code or demo."
+              
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
