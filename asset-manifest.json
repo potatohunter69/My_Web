@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.139d1f4e.css",
-    "main.js": "/static/js/main.bb8cb131.js",
+    "main.js": "/static/js/main.e367b5fa.js",
     "static/js/415.55fc2127.chunk.js": "/static/js/415.55fc2127.chunk.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/myWeb.png": "/static/media/myWeb.380f387e2d4b7140cbdd.png",
@@ -9,6 +9,7 @@
     "static/media/me.png": "/static/media/me.16d8078b10bf0db8aa54.png",
     "static/media/embeded.png": "/static/media/embeded.3a0b29baa1fa6129903a.png",
     "static/media/rockPaper.png": "/static/media/rockPaper.cb78be95748faf91eb4f.png",
+    "static/media/ScaniaApp.png": "/static/media/ScaniaApp.dd0e0232ff71f943fc38.png",
     "static/media/objectDetect.png": "/static/media/objectDetect.f2d843aa1a83681467fe.png",
     "static/media/onScheduling.png": "/static/media/onScheduling.df76f25f82d185d92269.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
@@ -22,12 +23,12 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.139d1f4e.css.map": "/static/css/main.139d1f4e.css.map",
-    "main.bb8cb131.js.map": "/static/js/main.bb8cb131.js.map",
+    "main.e367b5fa.js.map": "/static/js/main.e367b5fa.js.map",
     "415.55fc2127.chunk.js.map": "/static/js/415.55fc2127.chunk.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.139d1f4e.css",
-    "static/js/main.bb8cb131.js"
+    "static/js/main.e367b5fa.js"
   ]
 }
