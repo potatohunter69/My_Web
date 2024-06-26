@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
 import Skillstack from "./Skillstack";
-import myImg from "../../Assets/me.png";
+import myImg from "../../Assets/profPic.jpg";
 import MyStories from "./Background";
 
 function About() {
