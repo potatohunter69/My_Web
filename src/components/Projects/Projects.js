@@ -40,6 +40,7 @@ function Projects() {
               title="Flow Studio (ecommers)"
               description="I developed a fully functional e-commerce website from scratch, starting with the people willing to sell their products, to designing and deploying the platform on the cloud. Throughout this project, I gained substantial experience in bringing an idea to reality, used CI/CD strategies to efficiently deliver the product to customers and gather their feedback."
               ghLink="https://github.com/potatohunter69/Candle."
+              demoLink="https://flutterflows.azurewebsites.net"
               
             />
           </Col>
