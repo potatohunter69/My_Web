@@ -6,8 +6,9 @@ import { MdEmail } from "react-icons/md";
 
 import { Link } from "react-router-dom";
 
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub,AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Instagram } from "@material-ui/icons";
 
 function Home2() {
   return (
@@ -81,6 +82,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <MdEmail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/sami.noroozi1/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <Instagram />
                 </a>
               </li>
             </ul>

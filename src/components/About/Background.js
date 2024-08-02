@@ -59,10 +59,12 @@ const Title = styled.h1`
 
 const MyStories = () => {
   const stories = [
+    /*
     {
       content:
         "I moved to Sweden from Iran in 2016 and had to start learning everything from scratch. Despite the challenges, I have been persistent and diligent in my efforts. I have successfully learned both Swedish and English and completed my high school education with top grades.",
     },
+    */
     {
       content:
         "Initially, I was interested in studying medicine. However, I soon discovered that my true passion lay in technology and computers, as they offered me greater opportunities for creativity and innovation.",
