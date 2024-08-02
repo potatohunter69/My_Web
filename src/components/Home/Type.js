@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Computer Engineer",
           "Specializing in AI and Machine Learning",
-          "Passionate about exploring new technologiess",
+          "Passionate about exploring new technologies",
           "Gym Rat",
         ],
         autoStart: true,
