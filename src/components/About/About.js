@@ -10,7 +10,6 @@ import myImg from "../../Assets/profPic.jpg";
 import MyStories from "./Background";
 
 function About() {
-  
   return (
     <Container
       fluid
@@ -38,37 +37,43 @@ function About() {
               src={myImg}
               className="img-fluid"
               alt="avatar"
-              style={{ borderRadius: "50%", width: "300px", height: "300px" , backfaceVisibility: "hidden"}}
+              style={{
+                borderRadius: "50%",
+                width: "300px",
+                height: "300px",
+                objectFit: "cover",
+                backfaceVisibility: "hidden",
+              }}
             />
           </Col>
         </Row>
 
-        <Row style={{ marginTop: "40vh"}}>
-        <h1 className="project-heading">
-           <b>Some <strong className="purple">Background</strong> about me</b>
+        <Row style={{ marginTop: "40vh" }}>
+          <h1 className="project-heading">
+            <b>
+              Some <strong className="purple">Background</strong> about me
+            </b>
           </h1>
           <MyStories />
         </Row>
 
-       
-
         <Row style={{ marginTop: "35vh" }}>
           <h1 className="project-heading">
-            <strong className="purple">Frameworks</strong> and <strong className="purple">programming languages</strong> 
+            <strong className="purple">Frameworks</strong> and{" "}
+            <strong className="purple">programming languages</strong>
           </h1>
-          <h1 style={{marginBottom: "5vh"}}>
-          that I have worked with
-          </h1>
+          <h1 style={{ marginBottom: "5vh" }}>that I have worked with</h1>
           <Techstack />
         </Row>
 
         <Row style={{ marginTop: "30vh" }}>
           <h1 className="project-heading">
-          Key focus areas in our<strong className="purple"> Academic </strong>program so far
+            Key focus areas in our<strong className="purple"> Academic </strong>
+            program so far
           </h1>
           <Skillstack />
         </Row>
-        
+
         <Row style={{ marginTop: "60vh" }}>
           <h1 className="project-heading">
             <strong className="purple">Tools</strong> I use

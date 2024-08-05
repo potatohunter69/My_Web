@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
+
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -11,11 +12,13 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sami Noroozi </span>
             from <span className="purple"> Jönköping, Sweden.</span>
             <br />
-            I am currently studying Computer Engineering with a focus on AI and
-            Machine Learning at Jönköping University. I have a strong passion
-            for learning new technologies, especially in the field of AI. As an
-            individual, I am highly ambitious and driven, consistently eager to
-            develop and improve.
+            <span className="text-section">
+              I am currently studying Computer Engineering with a focus on AI and
+              Machine Learning at Jönköping University. I have a strong passion
+              for learning new technologies, especially in the field of AI. As an
+              individual, I am highly ambitious and driven, consistently eager to
+              develop and improve.
+            </span>
             <br />
             <br />
             <b>
@@ -32,7 +35,7 @@ function AboutCard() {
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> <b>Hange out with friends</b> to have a good time
+              <ImPointRight /> <b>Hanging out with friends</b> to have a good time
             </li>
             <li className="about-activity">
               <ImPointRight /> <b>Work on my own projects</b> to actually learn
