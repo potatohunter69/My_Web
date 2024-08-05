@@ -7,18 +7,18 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+        <blockquote className="home-about-body">
+          <p >
             Hi Everyone, I am <span className="purple">Sami Noroozi </span>
             from <span className="purple"> Jönköping, Sweden.</span>
             <br />
-            <span className="text-section">
+            <p>
               I am currently studying Computer Engineering with a focus on AI and
               Machine Learning at Jönköping University. I have a strong passion
               for learning new technologies, especially in the field of AI. As an
               individual, I am highly ambitious and driven, consistently eager to
               develop and improve.
-            </span>
+            </p>
             <br />
             <br />
             <b>
