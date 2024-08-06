@@ -35,6 +35,7 @@ function Timeline() {
                     position={item.position}
                     website={item.website}
                     summary={item.summary}
+                    image={item.image}
                     
                     date={new Date(item.startDate).toLocaleString("en-UK", {
                       month: "long",

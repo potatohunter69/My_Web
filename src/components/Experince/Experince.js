@@ -12,13 +12,6 @@ function Experience() {
     AOS.init();
   }, []);
 
-  const titleStyle = {
-    fontSize: "3em",
-    marginTop: "15vh",
-    marginBottom: "20px",
-    textAlign: "center",
-    color: "var(--imp-text-color)", // Using CSS variable
-  };
 
   return (
     <section className="resume-section">
@@ -26,7 +19,7 @@ function Experience() {
       {" "}
       {/* Added 'home-section' class */}
       <div className="container-exp">
-        <h1 className="title purple" style={titleStyle}>
+        <h1 className="title purple" >
           We are here{" "}
         </h1>{" "}
         {/* Added 'purple' class for color */}
