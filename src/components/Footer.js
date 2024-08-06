@@ -4,7 +4,8 @@ import { MdEmail } from "react-icons/md";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { Instagram } from "@material-ui/icons";
 
 function Footer() {
   let date = new Date();
@@ -50,6 +51,18 @@ function Footer() {
                   <MdEmail />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/sami.noroozi1/"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                
+                  <FaInstagram/>
+                </a>
+                  
+                </li>
           </ul>
         </Col>
       </Row>
