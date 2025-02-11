@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.5f2f8ce8.css",
-    "main.js": "/static/js/main.0f3f34c5.js",
+    "main.js": "/static/js/main.b41c2877.js",
     "static/js/415.55fc2127.chunk.js": "/static/js/415.55fc2127.chunk.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "static/media/profPic.jpg": "/static/media/profPic.c8f484f6b2cf0c2f2bfc.jpg",
     "static/media/myWeb.png": "/static/media/myWeb.380f387e2d4b7140cbdd.png",
     "static/media/ecommers.png": "/static/media/ecommers.c633246390645dec1c1f.png",
     "static/media/embeded.png": "/static/media/embeded.3a0b29baa1fa6129903a.png",
+    "static/media/clinic.png": "/static/media/clinic.a41d5c47925aa500ed04.png",
+    "static/media/me3.jpg": "/static/media/me3.abcd10d7cf83acaf8e62.jpg",
     "static/media/rockPaper.png": "/static/media/rockPaper.cb78be95748faf91eb4f.png",
     "static/media/ScaniaApp.png": "/static/media/ScaniaApp.dd0e0232ff71f943fc38.png",
+    "static/media/GA.png": "/static/media/GA.ddbd354fb67206e46781.png",
     "static/media/objectDetect.png": "/static/media/objectDetect.f2d843aa1a83681467fe.png",
     "static/media/onScheduling.png": "/static/media/onScheduling.df76f25f82d185d92269.png",
+    "static/media/han.png": "/static/media/han.49779fcd1e35ca5c0b25.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/CV.pdf": "/static/media/CV.2f57c8cfac069af001ca.pdf",
@@ -24,12 +27,12 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.5f2f8ce8.css.map": "/static/css/main.5f2f8ce8.css.map",
-    "main.0f3f34c5.js.map": "/static/js/main.0f3f34c5.js.map",
+    "main.b41c2877.js.map": "/static/js/main.b41c2877.js.map",
     "415.55fc2127.chunk.js.map": "/static/js/415.55fc2127.chunk.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f2f8ce8.css",
-    "static/js/main.0f3f34c5.js"
+    "static/js/main.b41c2877.js"
   ]
 }
