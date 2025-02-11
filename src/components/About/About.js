@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
@@ -14,11 +14,19 @@ function About() {
     <Container
       fluid
       className="about-section"
-      style={{ paddingBottom: "20vh" }}
+      style={{ 
+        paddingBottom: "20vh",
+        overflowX: "hidden",  // Prevent horizontal scrolling
+        width: "100%"
+      }}
     >
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ 
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center"
+        }}>
           <Col
             md={7}
             style={{
@@ -32,19 +40,26 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          <Col md={5} style={{ paddingTop: "20vh" }} className="about-img">
+          <Col 
+            md={5} 
+            className="about-img"
+            style={{ 
+              paddingTop: "20vh",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center"
+            }}
+          >
             <div style={{
-              width: "365px",
-              height: "600px",
-              display: "inline-block",
-              borderRadius: "20px",
-              padding: "2px",
-              background: "linear-gradient(145deg, rgba(128, 0, 128, 0.6), rgba(128, 0, 128, 0.2))",
-              boxShadow: "0 10px 30px -10px rgba(128, 0, 128, 0.3)",
-              transition: "all 0.3s ease-in-out",
+              width: "400px",
+              height: "500px",
+              position: "relative",
+              borderRadius: "12px",
+              overflow: "hidden",
+              boxShadow: "0 10px 30px rgba(0, 0, 0, 0.15)",
+              transition: "transform 0.3s ease-in-out",
               "&:hover": {
-                transform: "scale(1.02)",
-                boxShadow: "0 15px 35px -10px rgba(128, 0, 128, 0.4)",
+                transform: "translateY(-5px)"
               }
             }}>
               <img
@@ -54,9 +69,8 @@ function About() {
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "contain",
-                  borderRadius: "18px",
-                  background: "transparent",
+                  objectFit: "cover",
+                  borderRadius: "12px",
                 }}
               />
             </div>
