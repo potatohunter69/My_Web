@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
 import Skillstack from "./Skillstack";
-import myImg from "../../Assets/profPic.jpg";
+import myImg from "../../Assets/Projects/me3.jpg";
 import MyStories from "./Background";
 
 function About() {
@@ -33,18 +33,33 @@ function About() {
             <Aboutcard />
           </Col>
           <Col md={5} style={{ paddingTop: "20vh" }} className="about-img">
-            <img
-              src={myImg}
-              className="img-fluid"
-              alt="avatar"
-              style={{
-                borderRadius: "50%",
-                width: "300px",
-                height: "300px",
-                objectFit: "cover",
-                backfaceVisibility: "hidden",
-              }}
-            />
+            <div style={{
+              width: "365px",
+              height: "600px",
+              display: "inline-block",
+              borderRadius: "20px",
+              padding: "2px",
+              background: "linear-gradient(145deg, rgba(128, 0, 128, 0.6), rgba(128, 0, 128, 0.2))",
+              boxShadow: "0 10px 30px -10px rgba(128, 0, 128, 0.3)",
+              transition: "all 0.3s ease-in-out",
+              "&:hover": {
+                transform: "scale(1.02)",
+                boxShadow: "0 15px 35px -10px rgba(128, 0, 128, 0.4)",
+              }
+            }}>
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                  borderRadius: "18px",
+                  background: "transparent",
+                }}
+              />
+            </div>
           </Col>
         </Row>
 

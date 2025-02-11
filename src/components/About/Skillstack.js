@@ -7,6 +7,10 @@ import './skillstack.css'; // Make sure this points to your actual CSS file
 function SkillCarousel() {
   const skills = [
     {
+      name: 'Artificial Intelligence & Machine Learning',
+      description: 'Extensive experience in AI/ML, including deep learning, computer vision, and natural language processing. Proficient in implementing neural networks, working with transformers, and developing real-world AI applications using PyTorch, Scikit-learn and TensorFlow . Strong foundation in AI ethics and responsible development practices.'
+    },
+    {
       name: 'Software Development and CI/CD',
       description: 'Learned about software development cycle, including agile development, version control, testing, CI/CD and how to use tools such as Git, Github and Docker.'
     },

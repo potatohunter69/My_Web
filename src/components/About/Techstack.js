@@ -18,8 +18,10 @@ import {
   SiNvidia,
   SiDocker,
   SiJavascript,
-  PowerPlatform,
   SiPowerautomate,
+  SiFirebase,
+  SiScikitlearn,
+  SiFlutter,
 } from "react-icons/si";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure you're importing Bootstrap CSS
 
@@ -39,6 +41,8 @@ function Techstack() {
     { icon: <SiTensorflow />, label: "Tensorflow" },
     { icon: <SiPytorch />, label: "PyTorch" },
     { icon: <DiReact />, label: "React" },
+    { icon: <SiFlutter />, label: "Flutter" },
+    { icon: <SiFirebase />, label: "Firebase" },
     { icon: <SiDotnet />, label: ".NET" },
     { icon: <SiMicrosoftazure />, label: "Microsoft Azure" },
     { icon: <DiMongodb />, label: "MongoDB" },
@@ -46,6 +50,7 @@ function Techstack() {
     { icon: <DiGit />, label: "Git" },
     { icon: <DiDockerIcon />, label: "Docker" },
     { icon: <SiPowerautomate />, label: "Microsoft Power Platform" },
+    
     // ... Add more techs as needed ...
   ];
 
