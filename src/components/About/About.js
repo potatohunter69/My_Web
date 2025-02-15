@@ -51,15 +51,16 @@ function About() {
             }}
           >
             <div style={{
-              width: "400px",
-              height: "500px",
-              position: "relative",
-              borderRadius: "12px",
-              overflow: "hidden",
-              boxShadow: "0 10px 30px rgba(0, 0, 0, 0.15)",
-              transition: "transform 0.3s ease-in-out",
+              width: "365px",
+              height: "600px",
+              borderRadius: "20px",
+              padding: "2px",
+              background: "linear-gradient(145deg, rgba(128, 0, 128, 0.6), rgba(128, 0, 128, 0.2))",
+              boxShadow: "0 10px 30px -10px rgba(128, 0, 128, 0.3)",
+              transition: "all 0.3s ease-in-out",
               "&:hover": {
-                transform: "translateY(-5px)"
+                transform: "scale(1.02)",
+                boxShadow: "0 15px 35px -10px rgba(128, 0, 128, 0.4)",
               }
             }}>
               <img
@@ -69,8 +70,9 @@ function About() {
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "cover",
-                  borderRadius: "12px",
+                  objectFit: "contain",
+                  borderRadius: "18px",
+                  background: "transparent",
                 }}
               />
             </div>
