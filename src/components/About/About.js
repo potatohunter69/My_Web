@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
 import Skillstack from "./Skillstack";
-import myImg from "../../Assets/Projects/me3.jpg";
+import myImg from "../../Assets/Projects/ME.jpg";
 import MyStories from "./Background";
 
 function About() {
@@ -51,16 +51,18 @@ function About() {
             }}
           >
             <div style={{
-              width: "365px",
-              height: "600px",
-              borderRadius: "20px",
-              padding: "2px",
-              background: "linear-gradient(145deg, rgba(128, 0, 128, 0.6), rgba(128, 0, 128, 0.2))",
-              boxShadow: "0 10px 30px -10px rgba(128, 0, 128, 0.3)",
+              width: "400px",
+              height: "400px",
+              position: "relative",
+              borderRadius: "50%",
+              overflow: "hidden",
+              boxShadow: "0 10px 30px rgba(0, 0, 0, 0.15)",
+              border: "4px solid rgba(128, 0, 128, 0.1)",
               transition: "all 0.3s ease-in-out",
               "&:hover": {
-                transform: "scale(1.02)",
-                boxShadow: "0 15px 35px -10px rgba(128, 0, 128, 0.4)",
+                transform: "scale(1.05)",
+                border: "4px solid rgba(128, 0, 128, 0.2)",
+                boxShadow: "0 15px 35px rgba(0, 0, 0, 0.2)"
               }
             }}>
               <img
@@ -70,9 +72,8 @@ function About() {
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "contain",
-                  borderRadius: "18px",
-                  background: "transparent",
+                  objectFit: "cover",
+                  objectPosition: "center",
                 }}
               />
             </div>
