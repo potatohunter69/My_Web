@@ -12,6 +12,7 @@ import scaniaApp from "../../Assets/Projects/ScaniaApp.png";
 import clinic from "../../Assets/Projects/clinic.png";
 import geneticAlgorithm from "../../Assets/Projects/GA.png";
 import towerOfHanoi from "../../Assets/Projects/han.png";
+import remarkableAI from "../../Assets/Projects/remarkableAI.png";
 
 
 function Projects() {
@@ -26,6 +27,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px", rowGap: "20px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={remarkableAI}
+              isBlog={false}
+              title="Remarkable AI - AI Keyboard"
+              description="Founded and developed Remarkable AI, a cross-platform AI Keyboard application for iOS and Android built on top of open-source LLM models. The keyboard enables users to leverage LLM capabilities directly from their keyboard, featuring intelligent predictive text, context-aware autocorrect, and personalized suggestions. Built with on-device machine learning models for real-time typing assistance, boosting keyboard performance and responsiveness. Successfully launched to both App Store and Google Play Store."
+              liveLink="https://remarkableai.app"
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard

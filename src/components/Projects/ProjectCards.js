@@ -14,7 +14,8 @@ function ProjectCards(props) {
         alt="card-img"
         style={{ 
           height: "250px", 
-          objectFit: "cover",
+          objectFit: "contain",
+          backgroundColor: "#1a1a2e",
           borderBottom: "1px solid rgba(0,0,0,0.1)"
         }}
       />
